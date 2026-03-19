@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* ========================= */
+/* Custom Theme Variables */
+/* ========================= */
+
+:root {
+  --maung-gold: #facc15;
+  --maung-dark: #0a0a0a;
+}
+
+/* ========================= */
+/* Smooth Scroll */
+/* ========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ========================= */
+/* REMOVE SCROLLBAR TOTAL */
+/* ========================= */
+
+html,
+body {
+  height: 100%;
+  overflow: hidden; /* 🚀 HILANGKAN SCROLL */
+}
+
+/* ========================= */
+/* Background Texture */
+/* ========================= */
+
+body {
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(250, 204, 21, 0.08),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(250, 204, 21, 0.05),
+      transparent 40%
+    ),
+    #000;
+}
